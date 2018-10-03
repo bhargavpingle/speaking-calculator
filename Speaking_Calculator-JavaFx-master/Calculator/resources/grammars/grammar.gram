@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <syntax>  = (zero | one | two | three| four| five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | thrity | fourty | fifty | sixty | seventy | eighty | ninety | hundred | thousand) 
+                                                          (plus | minus | multiply | division| power | open bracket | close bracket | clear | delete | end speech)                          
+                   (zero | one | two | three| four| five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | thrity | fourty | fifty | sixty | seventy | eighty | ninety | hundred | thousand);
+
+public <trolling> = ( fuck you mary | how are you | Disable Speech Mode);
